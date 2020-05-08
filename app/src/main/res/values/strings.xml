@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Ipesq</string>
+    <string name="logoIpesq">Logo Ipesq</string>
+    <string name="text_login">Login</string>
+    <string name="txtButtonRegister">Registre-se Aqui</string>
+    <string name="welcome_login">Bem-Vindo</string>
+    <string name="txtListas">Pesquisas Disponíveis</string>
+    <string name="idpesquisa">ID(INT)</string>
+    <string name="numItens">Número de Itens(int)</string>
+    <string name="descricaoPesquisa">Descrição da Pesquisa</string>
+    <string name="buttonImport">Importar</string>
+    <string name="buttonInit">Iniciar</string>
+    <string name="editTextName">Insira nome do Usuário</string>
+    <string name="editTextEmail">Insira com o E-mail de Usuário</string>
+    <string name="editTextPass">Entre com a Senha</string>
+    <string name="editNumberCodNivel">Insira o Código de Nível</string>
+    <string name="buttonRegister">Registrar</string>
+    <string name="txtLoginPage">Já possui uma conta?</string>
+    <string name="warningAllCamps">Favor completar todos os campos.</string>
+    <string name="mininumUser">O nome precisa ter no mínimo 4 caracteres.</string>
+    <string name="codNivelEmpty">O código de nível não pode estar em branco.</string>
+    <string name="registerMessage">Agora logue em sua conta!</string>
+    <string name="passwordMinimun">A senha deve conter no mínimo 4 caracteres.</string>
+    <string name="enter_pass">Entra com a Senha</string>
+    <string name="enter_user">Insira o Usuário</string>
+    <string name="noAccount">Conta ou Senha não cadastrados</string>
+</resources>

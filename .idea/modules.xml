@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SQLite_Login_Register.iml" filepath="$PROJECT_DIR$/SQLite_Login_Register.iml" group="SQLite_Login_Register" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="SQLite_Login_Register/app" />
+    </modules>
+  </component>
+</project>

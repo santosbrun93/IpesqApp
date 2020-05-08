@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fadergs.projeto.ipesq.SignUp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editTextName"
+        android:maxLength="15"
+        android:textStyle="bold|italic"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editTextEmail"
+        android:textStyle="bold|italic"
+        android:autofillHints=""
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editTextPass"
+        android:textStyle="bold|italic"
+        android:maxLength="12"
+        android:autofillHints=""
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editNumberCodNivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editNumberCodNivel"
+        android:textStyle="bold|italic"
+        android:maxLength="12"/>
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonRegister"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/txtLoginPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtLoginPage"
+        android:textStyle="bold|italic"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

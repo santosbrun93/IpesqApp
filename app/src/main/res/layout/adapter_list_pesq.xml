@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/adapter_list_pesq"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/idPesq"
+        android:layout_width="42dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/idpesquisa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/desc_Pesq"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/numItens"
+        android:layout_width="79dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="3dp"
+        android:hint="@string/numItens"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonImportarPesq"
+        app:layout_constraintStart_toEndOf="@+id/desc_Pesq"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/desc_Pesq"
+        android:layout_width="127dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:text="@string/descricaoPesquisa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/numItens"
+        app:layout_constraintStart_toEndOf="@+id/idPesq"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonImportarPesq"
+        android:layout_width="73dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="3dp"
+        android:text="@string/buttonImport"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonInitPesq"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/numItens"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonInitPesq"
+        android:layout_width="73dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/buttonInit"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonImportarPesq"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
